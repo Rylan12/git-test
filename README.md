@@ -3,17 +3,19 @@ git-test
 
 This is a repo for testing git features.
 
+See [Usage](#Usage) for instructions.
+
+Current Branch: `master`
+------------------------
+
+This contains a base set of files that can be used for testing.
+
 Branch Key
 ----------
 
 Branch Name | Description
 ----------- | -----------
 `master`    | Base set of files. used as a base for testing branches.
-
-Current Branch: `master`
-------------------------
-
-This contains a base set of files that can be used for testing.
 
 Usage
 -----
