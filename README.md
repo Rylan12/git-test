@@ -25,11 +25,16 @@ This branch is for testing the submodule feature of git.
         - See `git help submodule` for more info
     - `git submodule foreach <command>` may be helful
         - Example: `git submodule foreach git pull origin master`
+1. To remove submodules:
+    1. `git rm <submodule>`
+    1. `rm -rf .git/modules/<submodule>`
+    1. `git config -f .git/config --remove-section submodule.<submodule>`
 
 ### Helpful Links
 
 - [Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 - [Working with submodules](https://github.blog/2016-02-01-working-with-submodules/)
+- [How do I remove a submodule?](https://stackoverflow.com/a/21211232/10865303)
 - [GitHub Tutorial to Manage Project with SubRepositories](https://github.com/EmaroLab/docs/wiki/GitHub-Tutorial-to-Manage-Project-with-SubRepositories)
 - [Update Git submodule to latest commit on origin](https://stackoverflow.com/questions/5828324/update-git-submodule-to-latest-commit-on-origin)
 
