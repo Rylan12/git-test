@@ -8,3 +8,7 @@
 	path = ohmyzsh
 	url = https://github.com/ohmyzsh/ohmyzsh.git
 	branch = master
+[submodule "plugins/Traffic-Thing"]
+	path = plugins/Traffic-Thing
+	url = https://github.com/Rylan12/Traffic-Thing.git
+	branch = master
