@@ -40,5 +40,10 @@ Use branches to manage different tests.
 
 ### Files
 
+- `countries/`: Contains text files listing countries by continent
 - `README.md`: Contains general information about the repo and current branch
+- `countries.csv`: CSV file containing raw country data
+- `country_sorter.py`: Python script that sorts countries from `countries.CSV` into continent text files in `countries/`
+- `iso_8859-1.txt`: Contains a list of characters defined by ISO 8859-1
 - `primes.py`: Python script that prints all primes under the given input
+- `sample.txt`: Contains sample text from a GitHub Gist by bawejakunal
