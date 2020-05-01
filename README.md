@@ -5,12 +5,12 @@ This is a repo for testing git features.
 
 See [Usage](#Usage) for instructions.
 
-Current Branch: `master`
+Current Branch: `submodule`
 ------------------------
 
 ###### Created: 4/30/2020
 
-This contains a base set of files that can be used for testing.
+This branch is for testing the submodule feature of git.
 
 Branch Key
 ----------
