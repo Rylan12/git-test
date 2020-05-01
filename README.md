@@ -35,3 +35,8 @@ Use branches to manage different tests.
     1. Update the description
 1. Do whatever testing is needed
 1. Update `README.md` on the new branch to have descriptions of the testing that was done.
+
+### Files
+
+- `README.md`: Contains general information about the repo and current branch
+- `primes.py`: Python script that prints all primes under the given input
