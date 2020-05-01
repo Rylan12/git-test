@@ -12,10 +12,26 @@ Current Branch: `submodule`
 
 This branch is for testing the submodule feature of git.
 
-### Submodule Instructions:
+### Submodule Instructions
 
 1. `git submodule add <url>` (url must me https://github.com/... for GitHub to recognize and link properly)
 1. Commit changes
+1. To update submodules:
+    - `git submodule update` with these flags (if needed):
+        - `--init` initializes and clones submodule to local repo (needed after cloning repo with submodules)
+        - `--recursive` recursively updated nested submodules
+        - `--remote` updates submodule to most recent commit on remote branch rather than specified submodule commit
+        - Note: `git submodule update` without `--remote` updates the submodule to a specified commit in the index, not the most recent commit.
+        - See `git help submodule` for more info
+    - `git submodule foreach <command>` may be helful
+        - Example: `git submodule foreach git pull origin master`
+
+### Helpful Links
+
+- [Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+- [Working with submodules](https://github.blog/2016-02-01-working-with-submodules/)
+- [GitHub Tutorial to Manage Project with SubRepositories](https://github.com/EmaroLab/docs/wiki/GitHub-Tutorial-to-Manage-Project-with-SubRepositories)
+- [Update Git submodule to latest commit on origin](https://stackoverflow.com/questions/5828324/update-git-submodule-to-latest-commit-on-origin)
 
 Branch Key
 ----------
