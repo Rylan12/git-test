@@ -12,6 +12,11 @@ Current Branch: `submodule`
 
 This branch is for testing the submodule feature of git.
 
+### Submodule Instructions:
+
+1. `git submodule add <url>` (url must me https://github.com/... for GitHub to recognize and link properly)
+1. Commit changes
+
 Branch Key
 ----------
 
