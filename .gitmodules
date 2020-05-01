@@ -1,3 +1,6 @@
 [submodule "Project-Euler"]
 	path = Project-Euler
 	url = https://github.com/Rylan12/Project-Euler.git
+[submodule "plugins/Traffic-Thing"]
+	path = plugins/Traffic-Thing
+	url = https://github.com/Rylan12/Traffic-Thing.git
