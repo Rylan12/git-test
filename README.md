@@ -17,7 +17,8 @@ Branch Key
 
 Branch Name | Description
 ----------- | -----------
-`master`    | Base set of files. used as a base for testing branches.
+`master`    | Base set of files. Used as a base for testing branches.
+`submodule` | Testing git submodules.
 
 Usage
 -----
