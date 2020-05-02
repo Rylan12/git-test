@@ -21,7 +21,8 @@ This branch is for testing the submodule feature of git.
         - `--init` initializes and clones submodule to local repo (needed after cloning repo with submodules)
         - `--recursive` recursively updated nested submodules
         - `--remote` updates submodule to most recent commit on remote branch rather than specified submodule commit
-        - Note: `git submodule update` without `--remote` updates the submodule to a specified commit in the index, not the most recent commit.
+        - `--checkout`, `--merge`, `--rebase`: see `update` option in [option list](#Options) below
+        - Note: `git submodule update` without `--remote` updates the submodule to a specified commit in the index, not the most recent commit
         - See `git help submodule` for more info
     - `git submodule foreach <command>` may be helful
         - Example: `git submodule foreach git pull origin master`
@@ -30,13 +31,39 @@ This branch is for testing the submodule feature of git.
     1. `rm -rf .git/modules/<submodule>`
     1. `git config -f .git/config --remove-section submodule.<submodule>`
 
+### `.gitmodules` Options:
+
+#### Sample `.gitmodules` entry:
+
+```
+[submodule "<submodule>"]
+    path = <submodule>
+    url = <url-to-submodule>
+```
+
+#### Options:
+
+Edit with `git config -f .gitmodules submodule.<submodule>.<option> <value>`
+
+- `branch`: Which branch is tracked by the submodule for updates with `--remote` (defaults to `master`)
+- `update`: What happens when `git submodue update` happens
+    - `checkout`: Default. Checks out most recent commit (detached HEAD)
+    - `merge`: Merge remote into submodule. (Note: if branch is checked out before update HEAD will not be detached)
+    - `rebase`: Rebase onto remote. (Note: if branch is checked out before update HEAD will not be detached)
+- `ignore`: Which files in the submodule repo are ignored by the main repo
+    - `none`: Default. No change are ignored
+    - `all`: Any changes are ignored
+    - `dirty`: Uncommitted changes are ignored but committed changes are shown
+    - `untracked`: Only untracked files are ignored. All tracked changes are shown
+
 ### Helpful Links
 
 - [Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 - [Working with submodules](https://github.blog/2016-02-01-working-with-submodules/)
+- [Why is my Git Submodule HEAD detached from master?](https://stackoverflow.com/a/55570998/10865303)
 - [How do I remove a submodule?](https://stackoverflow.com/a/21211232/10865303)
 - [GitHub Tutorial to Manage Project with SubRepositories](https://github.com/EmaroLab/docs/wiki/GitHub-Tutorial-to-Manage-Project-with-SubRepositories)
-- [Update Git submodule to latest commit on origin](https://stackoverflow.com/questions/5828324/update-git-submodule-to-latest-commit-on-origin)
+- [Update Git submodule to latest commit on origin](https://stackoverflow.com/questions/5828324/)
 
 Branch Key
 ----------
