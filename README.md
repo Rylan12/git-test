@@ -30,6 +30,9 @@ This branch is for testing the submodule feature of git.
     1. `git rm <submodule>`
     1. `rm -rf .git/modules/<submodule>`
     1. `git config -f .git/config --remove-section submodule.<submodule>`
+1. To switch to a branch with different status:
+    - `git checkout --recurse-submodules <branch>`
+    - Optional: `git config submodule.recurse true` to always use `--recurse-submodules`
 
 ### `.gitmodules` Options:
 
