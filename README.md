@@ -17,7 +17,7 @@ Branch Key
 
 Branch Name | Description
 ----------- | -----------
-[`master`][master]    | Base set of files. Used as a base for testing branches.
+[`master`][master] | Base set of files. Used as a base for testing branches.
 [`submodule`][submodule] | Testing git submodules.
 
 Usage
@@ -31,6 +31,7 @@ Use branches to manage different tests.
 
 1. Edit `README.md` on the `master` branch
     1. Add the new branch to the table
+    1. Add branch links at the bottom of the file using existing links as a template
     1. Commit these changes on `master`
 1. Create a new branch with `git checkout -b <name>`
 1. Edit `README.md` on the new branch
