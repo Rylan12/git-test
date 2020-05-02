@@ -73,8 +73,8 @@ Branch Key
 
 Branch Name | Description
 ----------- | -----------
-`master`    | Base set of files. Used as a base for testing branches.
-`submodule` | Testing git submodules.
+[`master`][master]    | Base set of files. Used as a base for testing branches.
+[`submodule`][submodule] | Testing git submodules.
 
 Usage
 -----
@@ -104,3 +104,7 @@ Use branches to manage different tests.
 - `iso_8859-1.txt`: Contains a list of characters defined by ISO 8859-1
 - `primes.py`: Python script that prints all primes under the given input
 - `sample.txt`: Contains sample text from a GitHub Gist by bawejakunal
+
+
+[master]: https://github.com/Rylan12/git-test/tree/master
+[submodule]: https://github.com/Rylan12/git-test/tree/submodule
