@@ -5,12 +5,12 @@ This is a repo for testing git features.
 
 See [Usage](#Usage) for instructions.
 
-Current Branch: `master`
+Current Branch: `git-commit-each`
 ------------------------
 
-###### Created: 4/30/2020
+###### Created: 7/1/2020
 
-This contains a base set of files that can be used for testing.
+This branch is for testing the [`git-commit-each`](https://github.com/MikeMcQuaid/dotfiles/blob/master/bin/git-commit-each) command
 
 Branch Key
 ----------
