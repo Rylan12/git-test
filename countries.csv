@@ -1,7 +1,6 @@
 Continent_Name,Continent_Code,Country_Name,Two_Letter_Country_Code,Three_Letter_Country_Code,Country_Number
 Asia,AS,"Afghanistan, Islamic Republic of",AF,AFG,4
 Europe,EU,"Albania, Republic of",AL,ALB,8
-Antarctica,AN,Antarctica (the territory South of 60 deg S),AQ,ATA,10
 Africa,AF,"Algeria, People's Democratic Republic of",DZ,DZA,12
 Oceania,OC,American Samoa,AS,ASM,16
 Europe,EU,"Andorra, Principality of",AD,AND,20
