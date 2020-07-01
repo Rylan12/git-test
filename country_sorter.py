@@ -4,6 +4,8 @@
 # John Snow Labs
 # https://datahub.io/JohnSnowLabs/country-and-continent-codes-list
 
+# Note: Antarctica has now been removed
+
 import csv
 
 country_lines = []
@@ -15,7 +17,6 @@ with open('countries.csv', 'r') as country_file:
 
 continents = {
     'Africa': [],
-    'Antarctica': [],
     'Asia': [],
     'Europe': [],
     'North America': [],
