@@ -20,6 +20,7 @@ Branch Name | Description
 [`master`][master] | Base set of files. Used as a base for testing branches.
 [`submodule`][submodule] | Testing git submodules.
 [`git-commit-each`][git-commit-each] | Testing my `git-commit-each` command to make one commit per file.
+[`lazygit`][lazygit] | Testing the `lazygit` command line application
 
 Usage
 -----
@@ -55,3 +56,4 @@ Use branches to manage different tests.
 [master]: https://github.com/Rylan12/git-test/tree/master
 [submodule]: https://github.com/Rylan12/git-test/tree/submodule
 [git-commit-each]: https://github.com/Rylan12/git-test/tree/git-commit-each
+[lazygit]: https://github.com/Rylan12/git-test/tree/lazygit
