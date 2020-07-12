@@ -5,12 +5,12 @@ This is a repo for testing git features.
 
 See [Usage](#Usage) for instructions.
 
-Current Branch: `master`
+Current Branch: `lazygit`
 ------------------------
 
-###### Created: 4/30/2020
+###### Created: 7/12/2020
 
-This contains a base set of files that can be used for testing.
+This contains some testing of the [`lazygit`](https://github.com/jesseduffield/lazygit) application workflows.
 
 Branch Key
 ----------
